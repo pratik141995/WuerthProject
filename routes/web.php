@@ -21,5 +21,5 @@ Route::get('/','App\Http\Controllers\visitController@index');
 Route::get('/add_visitor_data','App\Http\Controllers\visitController@add_visitor_data');
 Route::POST('/save_data','App\Http\Controllers\visitController@save_data');
 
-
+Route::get('/New-Route','App\Http\Controllers\visitController@index');
 
