@@ -21,9 +21,7 @@ Route::get('/','App\Http\Controllers\visitController@index');
 Route::get('/add_visitor_data','App\Http\Controllers\visitController@add_visitor_data');
 Route::POST('/save_data','App\Http\Controllers\visitController@save_data');
 
-<<<<<<< HEAD
+
 Route::get('/New-Route','App\Http\Controllers\visitController@index');
-=======
 
->>>>>>> 43664cf07990ff9843aa8af48fb0fd6c66038fc4
-
+Route::get('/New-Route-test','App\Http\Controllers\visitController@index');
