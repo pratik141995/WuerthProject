@@ -24,4 +24,4 @@ Route::POST('/save_data','App\Http\Controllers\visitController@save_data');
 
 Route::get('/New-Route','App\Http\Controllers\visitController@index');
 
-Route::get('/New-Route-test','App\Http\Controllers\visitController@index');
+Route::get('/New-Route-test','App\Http\Controllers\visitController@index1');

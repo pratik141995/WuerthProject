@@ -12,6 +12,13 @@ class visitController extends Controller
     	return view('index',compact('visitor'));
     }
 
+
+     public function index1(){
+        $visitor=visitor::paginate(5);
+        return view('index',compact('visitor'));
+    }
+
+
     public function add_visitor_data(){
     	return view('manage_data');
     }
