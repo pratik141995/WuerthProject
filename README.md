@@ -69,3 +69,38 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 >>>>>>> ea4ccd8 (fist commit)
+>>>>
+>>>> GIT commands
+# git init - initiate the git.
+# ls - shows directory/files under git folder
+# ls - lart - to check if git is initiated or not.
+# git status - checks the status of files under git folder.
+# git add filename.extention - adds to staging.
+# git add -a adds all files to staging.
+# git commit - commits the staging files.
+# git commit -m "added more files" - commits all files with comment added..
+# touch filename.extention - creates file and keep ready in staging.
+# git checkout filename.extention - revert the changes.
+# git checkout -f -- reverts all the changes in the repository.
+# git log - shows all the logs when files were commited
+# git log -p -5(number)
+# git diff (shows the modified code last file before adding it to staging)
+# git diff --staged (shows the modified code last file after staged)
+# git commit -a -m "comments" - commits directly without staging.
+# git rm filename.extention - deletes the file
+# git rm --cached filename.extention - removes from staging and keep it under untracked.
+# git branch - shows all branches to that code.
+# git branch branchname - creates a copy.
+# git checkout branchname - switches to branchname(if created)
+# git checkout -b branchname - creates new branch as well as switches to that branch.
+# git merge branchname - merges the code changes done to branch in main branch or current branch
+
+Github commands
+# git remote add origin https://github.com/girdtechnologies/myrepo.git - creates the remote branch 
+
+# git remote - shows the remote git branch created locally
+
+# git push -u origin Amruta (branchname)
+
+later just use 
+# git push to push the code to remote branch
